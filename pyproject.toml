@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatty"
+version = "0.0.0"
+description = "Chat with an AI about the meaning of life"
+readme = "README.md"
+authors = [{name = "Darth Vader", email = "darth.vader@jedi.temple"}]
+classifiers = [
+    "Programming Language :: Python",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Intended Audience :: Education" 
+]
+keywords = ["ai", "skynet"]
+dependencies = [
+    "fastapi>=0.115.8",
+    "openai>=1.63.0",
+    "python-dotenv>=1.0.1"
+]
+requires-python = ">=3.12"
